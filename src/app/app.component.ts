@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ngsp';
-  judul = '>APLIKASI CETAK SURAT PENGANTAR KERJA PRAKTEK DAN SKRIPSI';
+  judul = 'APLIKASI CETAK SURAT PENGANTAR KERJA PRAKTEK DAN SKRIPSI';
 }
