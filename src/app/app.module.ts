@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { MatCardModule } from '@angular/material';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -19,6 +20,7 @@ import { ViewComponent } from './sp_kp/view/view.component';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    MatCardModule,
     UiModule
   ],
   providers: [],
