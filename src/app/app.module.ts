@@ -3,14 +3,17 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { SuratComponent } from './surat/surat.component';
+
 import { UiModule } from './ui/ui.module';
 import { HttpClientModule } from '@angular/common/http';
+import { SuratComponent } from './sp_kp/surat/surat.component';
+import { ViewComponent } from './sp_kp/view/view.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SuratComponent
+    SuratComponent,
+    ViewComponent
   ],
   imports: [
     BrowserModule,
