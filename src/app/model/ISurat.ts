@@ -1,5 +1,5 @@
 export interface ISurat {
-    id: number,
-    nim: string,
+    nim: number,
+    nama: string,
     judul: string
 }

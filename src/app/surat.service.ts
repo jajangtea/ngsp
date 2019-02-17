@@ -10,7 +10,7 @@ import { ISurat } from './model/ISurat';
   providedIn: 'root'
 })
 export class SuratService {
-  private _url: string = "/assets/data/employees.json";
+  private _url: string = "/assets/data/surat.json";
 
   constructor(private http: HttpClient) { }
 
