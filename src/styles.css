@@ -1,5 +1,4 @@
-@import url('../src/themes/vendor/bootstrap/css/bootstrap.min.css');
-@import url('../src/themes/vendor/bootstrap/css/bootstrap.min.css');
-@import url('../src/themes/vendor/magnific-popup/magnific-popup.css');
 @import url('../src/themes/css/freelancer.min.css');
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~font-awesome/css/font-awesome.css";
 

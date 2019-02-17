@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -6,7 +7,18 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  netImage:any = "../themes/img/profile.png";
+  constructor(
+    private router: Router
+  ) { }
+  ngOnInit() {
+  }
+  netImage: any = "../themes/img/profile.png";
   title = 'ngsp';
   judul = 'APLIKASI CETAK SURAT PENGANTAR KERJA PRAKTEK DAN SKRIPSI';
+
+  getNavigation(link) {
+    this.router.navigate([link]);
+  }
 }
+
+
