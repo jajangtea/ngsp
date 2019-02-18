@@ -24,8 +24,8 @@ export class SuratService {
 
   }
 
-  getSuratDetails(id) {
-    return this.http.get(this._url + 'api/viewpengajuan?nim=' + id);
+  getSuratDetails(NIM) {
+    return this.http.get(this._url + 'api/viewpengajuan?nim=' + NIM);
   }
 
 }
