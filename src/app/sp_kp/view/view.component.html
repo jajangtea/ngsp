@@ -37,41 +37,88 @@
 <div>
   <mat-card>
     <table id="contentToConvert">
-      <tr>
-        <th>Column1</th>
-        <th>Column2</th>
-        <th>Column3</th>
-      </tr>
-      <tr>
-        <td>Row 1</td>
-        <td>Row 1</td>
-        <td>Row 1</td>
-      </tr>
-      <tr>
-        <td>Row 2</td>
-        <td>Row 2</td>
-        <td>Row 2</td>
-      </tr>
-      <tr>
-        <td>Row 3</td>
-        <td>Row 3</td>
-        <td>Row 3</td>
-      </tr>
-      <tr>
-        <td>Row 4</td>
-        <td>Row 4</td>
-        <td>Row 4</td>
-      </tr>
-      <tr>
-        <td>Row 5</td>
-        <td>Row 5</td>
-        <td>Row 5</td>
-      </tr>
-      <tr>
-        <td>Row 6</td>
-        <td>Row 6</td>
-        <td>Row 6</td>
-      </tr>
+      <table>
+        <tr>
+          <td width="10%">No Surat</td>
+          <td width="1%">:</td>
+          <td width="89%">{{productData['Nama']}}</td>
+        </tr>
+        <tr>
+          <td width="10%">Prihal</td>
+          <td width="1%">:</td>
+          <td width="89%">{{productData['Nama']}}</td>
+        </tr>
+        <tr>
+          <td width="10%">Lampiran</td>
+          <td width="1%">:</td>
+          <td width="89%">{{productData['Nama']}}</td>
+        </tr>
+      </table>
+      <table>
+        <tr>
+          <td width="100%" style="text-align: left">Kepada Yth,</td>
+        </tr>
+        <tr>
+          <td width="100%" style="text-align: left">Bapak/Ibu Pimpinan</td>
+        </tr>
+        <tr>
+          <td width="100%" style="text-align: left">PT. Panca Rasa Pratama Tanjungpinang</td>
+        </tr>
+        <tr>
+          <td width="100%" style="text-align: left">Di Tempat</td>
+        </tr>
+        <tr>
+          <td width="100%" style="text-align: left">Dengan Hormat</td>
+        </tr>
+        <tr>
+          <td width="100%" style="text-align: justify">Berkenaan dengan penulisan Skripsi yang harus dilaksanakan dan
+            ditempuh oleh
+            seluruh mahasiswa program Sarjana (S-1) STT INDONESIA TANJUNGPINANG,
+            dengan ini kami mohon kesediaan Bapak/Ibu memberikan ijin Penelitian Skripsi pada
+            mahasiswa kami yang akan melakukan penelitian di PT. Panca Rasa Pratama
+            Tanjungpinang dengan judul "{{productData['Judul']}}" adapun identitas mahasiswa tersebut adalah :</td>
+        </tr>
+
+      </table>
+      <table class="info">
+
+        <tr>
+          <td style="border:1px solid black">NIM</td>
+          <td style="border:1px solid black">Nama</td>
+          <td style="border:1px solid black">Program Studi</td>
+        </tr>
+        <tr>
+          <td style="border:1px solid black">{{productData['NIM']}}</td>
+          <td style="border:1px solid black">{{productData['Nama']}}</td>
+          <td style="border:1px solid black">Komputer Akuntansi</td>
+        </tr>
+      </table>
+      <table>
+        <tr>
+          <td style="text-align: justify">Demikian surat keterangan dibuat dengan sebenar-benarnya dan
+            dapat dipergunakan sebagaimana mestinya.</td>
+        </tr>
+      </table>
+      <br><br><br>
+      <table>
+        <tr>
+          <td width="70%"></td>
+          <td style="text-align: center">Tanjungpinang,18 Februari 2018</td>
+        </tr>
+        <tr>
+          <td width="70%"></td>
+          <td style="text-align: center">Hormat Kami</td>
+        </tr>
+        <tr>
+          <td width="70%"></td>
+          <td style="text-align: center;font-weight:bold" height="200"><u>Ade Winarni</u><br>
+            <p style="text-align: center">Puket I Bidang Akademik</p>
+          </td>
+
+        </tr>
+
+      </table>
+
     </table>
 
   </mat-card>
