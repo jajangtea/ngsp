@@ -40,7 +40,11 @@ export class ViewComponent implements OnInit {
       var imgHeight = canvas.height * imgWidth / canvas.width;
       var heightLeft = imgHeight;
 
+<<<<<<< HEAD
       const contentDataURL = canvas.toDataURL('image/png',1.0)
+=======
+      const contentDataURL = canvas.toDataURL('image/png', 1.0)
+>>>>>>> 97ee701cee123202cf831a09709b9a57fc64afcd
       let pdf = new jspdf('p', 'mm', 'a4'); // A4 size page of PDF
       
       var position = 0;
